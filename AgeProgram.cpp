@@ -29,7 +29,7 @@ int main()
         }
         std::cout << "\n";
     }
-    else if (age < 64) {
+    else if (age < 84) {
         std::cout << "Things you can do as a adult in " << country;
         for (int i = 0; i < 4; i++){
             std::cout << adultThings[i]<< ", ";
@@ -45,6 +45,7 @@ int main()
     }
 return 0;
 }
+
 
 
 
